@@ -1,0 +1,42 @@
+.model {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 14px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 400px;
+    height: 150px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+  .model-label{
+    justify-content: center;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   /* text-align: center; */
+  }
+  .Cancel-btn{
+    color:"white";
+     padding: "8px 12px";
+     border:"none";
+
+  }
+  .save-btn{
+    background-color:"#007bff";
+    color:"white" ;
+    padding: "8px 12px";
+    border:"none"
+  }
+  .btns{
+    display: flex;
+   gap : 20px;
+   justify-content: flex-end;
+  }

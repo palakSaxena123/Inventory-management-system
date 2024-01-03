@@ -1,0 +1,20 @@
+input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  outline: none; /* Remove the default outline */
+}
+
+
+
+  .button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
