@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-
 // Function to load state from local storage
 const loadState = () => {
   try {

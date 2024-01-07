@@ -156,7 +156,8 @@ const List = () => {
                           aria-hidden=""
                           className="absolute inset-0 bg-green-200 opacity-50 rounded-full"
                         />
-                        <span className="relative"> {product.status ? "Active" : "Inactive"}</span>
+                        <span className="relative"> {product.status === "active" ? "Active" : "Inactive"}</span>
+
                       </span>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">

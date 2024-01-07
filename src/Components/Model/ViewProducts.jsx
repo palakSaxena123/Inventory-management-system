@@ -28,7 +28,7 @@ const ViewProducts = ({ show, close, product }) => {
             <p><strong>SKU:</strong> {product.sku}</p>
             <p><strong>Category:</strong> {product.category}</p>
             <p><strong>Subcategory:</strong> {product.subcategory}</p>
-            <p><strong>Status:</strong> {product.status ? "Active" : "Inactive"}</p>
+            <p><strong>Status:</strong> {product.status === "active" ? "Active" : "Inactive"}</p>
             <p><strong>Price:</strong> {product.price}</p>
             <p><strong>Description:</strong> {product. description}</p>
             <p><strong>Weight:</strong> {product.weight}</p>
@@ -36,7 +36,7 @@ const ViewProducts = ({ show, close, product }) => {
             <p><strong>Manufacturer:</strong> {product.manufacturer}</p>
             <p><strong>Quantity:</strong> {product.quantity}</p>
        
-           
+  
           </DialogContent>
           <DialogActions className="DialogActions">
             <Button className="Button" onClick={close} color="primary">
