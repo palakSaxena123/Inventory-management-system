@@ -45,7 +45,7 @@ const List = () => {
   const handleConfirmDelete = (id) => {
     setDeleteIndex(id)
     dispatch(deleteProduct({ id: deleteIndex }));
-    toast.error("product deleted sucessfully");
+    toast.error("product deleted successfully");
     setDeleteIndex(null);
     setdeleteModelOpen(false);
 
