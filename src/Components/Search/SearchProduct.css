@@ -4,10 +4,8 @@ input {
   border-radius: 5px;
   margin-bottom: 20px;
   font-size: 16px;
-  outline: none; /* Remove the default outline */
+  outline: none; 
 }
-
-
 
   .button {
     padding: 8px 16px;

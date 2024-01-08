@@ -76,8 +76,8 @@ const List = () => {
     <div className="bg-white p-8 rounded-md w-full">
       <div className=" flex items-center justify-around pb-6">
         <div>
-			<h2 class="text-gray-600 font-semibold">Product List</h2>
-			<span class="text-xs">All products item</span>
+			<h2 className="text-gray-600 font-semibold">Product List</h2>
+			<span className="text-xs">All products item</span>
 		</div>
         <div className="flex items-center justify-around">
           <SearchProduct/>

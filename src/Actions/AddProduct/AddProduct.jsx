@@ -162,18 +162,18 @@ const AddProduct = () => {
           {/* ---------- Form Start ------------- */}
           <div className="FORM">
             <form onSubmit={formik.handleSubmit}>
-              <div class="space-y-12">
-                <div class="border-b border-gray-900/10 pb-12">
-                  <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-12">
+              <div className="space-y-12">
+                <div className="border-b border-gray-900/10 pb-12">
+                  <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-12">
                     {/* =====> Product name */}
-                    <div class="sm:col-span-3">
+                    <div className="sm:col-span-3">
                       <label
                         for="name"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                        className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Product name
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <input
                           type="text"
                           name="name"
@@ -182,7 +182,7 @@ const AddProduct = () => {
                           value={formik.values.name}
                           onBlur={formik.handleBlur}
                           autoComplete="given-name"
-                          class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                       {formik.touched.name && formik.errors.name && (
@@ -190,14 +190,14 @@ const AddProduct = () => {
                       )}
                     </div>
                     {/* =====> Product Brand */}
-                    <div class="sm:col-span-3">
+                    <div className="sm:col-span-3">
                       <label
                         for="brand"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                        className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Product brand
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <input
                           type="text"
                           name="brand"
@@ -206,7 +206,7 @@ const AddProduct = () => {
                           value={formik.values.brand}
                           onBlur={formik.handleBlur}
                           autocomplete="family-name"
-                          class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                       {formik.touched.brand && formik.errors.brand && (
@@ -214,14 +214,14 @@ const AddProduct = () => {
                       )}
                     </div>
                     {/* =====> Product Model */}
-                    <div class="sm:col-span-3">
+                    <div className="sm:col-span-3">
                       <label
                         for=" model"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                        className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Product Model
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <input
                           type="text"
                           name="model"
@@ -230,7 +230,7 @@ const AddProduct = () => {
                           value={formik.values.model}
                           onBlur={formik.handleBlur}
                           autoComplete="given-name"
-                          class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                       {formik.touched.model && formik.errors.model && (
@@ -238,14 +238,14 @@ const AddProduct = () => {
                       )}
                     </div>
                     {/* =====> Product Model Number */}
-                    <div class="sm:col-span-3">
+                    <div className="sm:col-span-3">
                       <label
                         for="modelNumber"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                        className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Product Model Number
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <input
                           type="text"
                           name="modelNumber"
@@ -254,7 +254,7 @@ const AddProduct = () => {
                           value={formik.values.modelNumber}
                           onBlur={formik.handleBlur}
                           autoComplete="family-name"
-                          class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                       {formik.touched.modelNumber &&
@@ -265,14 +265,14 @@ const AddProduct = () => {
                         )}
                     </div>
                     {/* =====> SKU */}
-                    <div class="sm:col-span-2 sm:col-start-1">
+                    <div className="sm:col-span-2 sm:col-start-1">
                       <label
                         for="sku"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                        className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         SKU
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <input
                           type="text"
                           name="sku"
@@ -281,7 +281,7 @@ const AddProduct = () => {
                           value={formik.values.sku}
                           onBlur={formik.handleBlur}
                           autocomplete="address-level2"
-                          class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                       {formik.touched.sku && formik.errors.sku && (
@@ -289,14 +289,14 @@ const AddProduct = () => {
                       )}
                     </div>
                     {/* =====> Price */}
-                    <div class="sm:col-span-2">
+                    <div className="sm:col-span-2">
                       <label
                         for="price"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                        className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Price
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <input
                           type="text"
                           name="price"
@@ -305,7 +305,7 @@ const AddProduct = () => {
                           value={formik.values.price}
                           onBlur={formik.handleBlur}
                           autocomplete="address-level1"
-                          class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                       {formik.touched.price && formik.errors.price && (
@@ -313,14 +313,14 @@ const AddProduct = () => {
                       )}
                     </div>
                     {/* =====> Weight */}
-                    <div class="sm:col-span-2">
+                    <div className="sm:col-span-2">
                       <label
                         for="weight"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                        className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Item Weight
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <input
                           type="text"
                           name="weight"
@@ -329,7 +329,7 @@ const AddProduct = () => {
                           onBlur={formik.handleBlur}
                           value={formik.values.weight}
                           autocomplete="weight"
-                          class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                       {formik.touched.weight && formik.errors.weight && (
@@ -337,14 +337,14 @@ const AddProduct = () => {
                       )}
                     </div>
                     {/* =====> Quantity */}
-                    <div class="sm:col-span-2">
+                    <div className="sm:col-span-2">
                       <label
                         for="quantity"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                        className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Item Quantity
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <input
                           type="text"
                           name="quantity"
@@ -353,7 +353,7 @@ const AddProduct = () => {
                           value={formik.values.quantity}
                           onBlur={formik.handleBlur}
                           autocomplete="quantity"
-                          class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                       {formik.touched.quantity && formik.errors.quantity && (
@@ -361,14 +361,14 @@ const AddProduct = () => {
                       )}
                     </div>
                     {/* ====> Dimensions */}
-                    <div class="sm:col-span-4">
+                    <div className="sm:col-span-4">
                       <label
                         for="dimensions"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                        className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Dimensions
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <input
                           id="dimensions"
                           name="dimensions"
@@ -377,7 +377,7 @@ const AddProduct = () => {
                           value={formik.values.dimensions}
                           onBlur={formik.handleBlur}
                           autocomplete="dimensions"
-                          class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                       {formik.touched.dimensions &&
@@ -388,14 +388,14 @@ const AddProduct = () => {
                         )}
                     </div>
                     {/* ====> Manufacturer */}
-                    <div class="sm:col-span-4">
+                    <div className="sm:col-span-4">
                       <label
                         for="manufacturer"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                        className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Manufacturer
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <input
                           id="manufacturer"
                           name="manufacturer"
@@ -404,7 +404,7 @@ const AddProduct = () => {
                           value={formik.values.manufacturer}
                           onBlur={formik.handleBlur}
                           autocomplete="dimensions"
-                          class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                       className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                       {formik.touched.manufacturer &&
@@ -415,14 +415,14 @@ const AddProduct = () => {
                         )}
                     </div>
                     {/* Category */}
-                    <div class="sm:col-span-3">
+                    <div className="sm:col-span-3">
                       <label
                         for="category"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                     className="block text-sm font-medium leading-6 text-gray-900"
                       >
                       Category
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <select
                           id="category"
                           name="category"
@@ -430,7 +430,7 @@ const AddProduct = () => {
                           value={formik.values.category}
                           onBlur={formik.handleBlur}
                           autocomplete="category-name"
-                          class="block w-full rounded-md  border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
+                       className="block w-full rounded-md  border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
                         >
                           <option value="">Select Category</option>
                           <option value="electronics">Electronics</option>
@@ -442,14 +442,14 @@ const AddProduct = () => {
                       )}
                     </div>
                     {/* Subcategory */}
-                    <div class="sm:col-span-3">
+                    <div className="sm:col-span-3">
                       <label
                         for="subcategory"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                     className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Subcategory
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <select
                           id="subcategory"
                           name="subcategory"
@@ -457,7 +457,7 @@ const AddProduct = () => {
                           value={formik.values.subcategory}
                           onBlur={formik.handleBlur}
                           autocomplete="subcategory-name"
-                          class="block w-full rounded-md  border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
+                       className="block w-full rounded-md  border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
                         >
                           <option>Select subcategory</option>
                           {formik.values.category === "electronics" && (
@@ -512,15 +512,15 @@ const AddProduct = () => {
                     </div>
 
                     {/* ====> Image */}
-                    <div class="sm:col-span-4">
+                    <div className="sm:col-span-4">
                       <label
                         for="selectedImages"
                         onClick={handleLabelClick}
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                     className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Product Images
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <input
                           id="selectedImages"
                           name="selectedImages"
@@ -537,7 +537,7 @@ const AddProduct = () => {
                           ref={fileInputRef}
                           className="hidden"
                           autocomplete="dimensions"
-                          class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                       class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                       {formik.touched.selectedImages &&
@@ -562,14 +562,14 @@ const AddProduct = () => {
                       )}
                     </div>
                     {/* ====> Description */}
-                    <div class="sm:col-span-5">
+                    <div className="sm:col-span-5">
                       <label
                         for="description"
-                        class="block text-sm font-medium leading-6 text-gray-900"
+                     className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Description
                       </label>
-                      <div class="mt-2">
+                      <div className="mt-2">
                         <textarea
                           id="description"
                           name="description"
@@ -577,7 +577,7 @@ const AddProduct = () => {
                           onChange={formik.handleChange}
                           value={formik.values.description}
                           onBlur={formik.handleBlur}
-                          class="block w-full rounded-md border-0  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                       className="block w-full rounded-md border-0  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         ></textarea>
                         {formik.touched.description &&
                           formik.errors.description && (
@@ -586,25 +586,25 @@ const AddProduct = () => {
                             </div>
                           )}
                       </div>
-                      <p class="mt-3 text-sm leading-6 text-gray-600">
+                      <p className="mt-3 text-sm leading-6 text-gray-600">
                         Write a detailed description about your product.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="mt-6 flex items-center justify-end gap-x-6">
+              <div className="mt-6 flex items-center justify-end gap-x-6">
                 <Link to="/productList">
                   <button
                     type="button"
-                    class="text-sm font-semibold leading-6 text-gray-900"
+                 className="text-sm font-semibold leading-6 text-gray-900"
                   >
                     Cancel
                   </button>
                 </Link>
                 <button
                   type="submit"
-                  class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+               className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   {" "}
                   {productToEdit ? "Update Product" : "Add Product"}
